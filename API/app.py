@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/familia")
 def get_familia():
-    rows = ["Amin", "Marce", "Miranda","Camila"]
+    rows = ["Amin", "Marce", "Miranda","Camila","juana"]
     return rows
 
 @app.get("/superheroesDC")
